@@ -225,6 +225,11 @@ Using the TypoScriptFrontendController
     The property :php:`additionalHeaderData` has been marked as internal
     and should not be used.
 
+..  deprecated:: 13.4
+    The class :php:`\TYPO3\CMS\Frontend\Controller\TypoScriptFrontendController`
+    and its global instance :php:`$GLOBALS['TSFE']` have been marked as
+    deprecated. The class will be removed with TYPO3 v14.
+
 ..  code-block:: php
 
     $GLOBALS['TSFE']->additionalHeaderData[$name] = $javaScriptCode;
